@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## CRUDテンプレート使用
+`rails g scaffold *Project Title*`
 
-Things you may want to cover:
+## Gemfile
+追加  
+`gem 'cocoon'`  
+`gem 'jquery-rails'`
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## javascripts/application.js
+追加  
+`//= require jquery`  
+`//= require cocoon`
